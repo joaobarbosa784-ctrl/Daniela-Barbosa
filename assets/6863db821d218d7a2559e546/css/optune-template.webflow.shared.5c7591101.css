@@ -2050,7 +2050,7 @@ textarea.w-input, textarea.w-select {
   --color--second-color: black;
   --font-family--primary-font: Geist, sans-serif;
   --color--first-color: white;
-  --color--blue: #110fdf;
+  --color--blue: #D4AF37;
   --backdrop-filter--blur-color: #ffffff0d;
   --backdrop-filter--backdrop-size: 40px;
   --page-container--width: 100%;
@@ -2058,7 +2058,7 @@ textarea.w-input, textarea.w-select {
   --section--padding-left-right: 5%;
   --button--round-corners: 50px;
   --button--background-color: #fff0;
-  --button--button-color-second: #7468fc;
+  --button--button-color-second: #B8860B;
   --button--font-size: 14px;
   --section--padding-top-bottom: 120px;
   --page-margin--margin-60px: 60px;
@@ -2072,12 +2072,12 @@ textarea.w-input, textarea.w-select {
   --page-margin--margin-50px: 50px;
   --page-margin--margin-200px: 200px;
   --page-margin--margin-15px: 15px;
-  --color--neon-green: #1dd35a;
+  --color--neon-green: #D4AF37;
   --page-margin--margin-10px: 10px;
   --page-margin--margin-70px: 70px;
   --page-margin--margin-90px: 90px;
   --page-margin--margin-100px: 100px;
-  --button--button-color: #110fdf;
+  --button--button-color: #D4AF37;
 }
 
 .w-layout-grid {
@@ -2141,7 +2141,7 @@ body {
   --color--second-color: black;
   --font-family--primary-font: Geist, sans-serif;
   --color--first-color: white;
-  --color--blue: #110fdf;
+  --color--blue: #D4AF37;
   --backdrop-filter--blur-color: #ffffff0d;
   --backdrop-filter--backdrop-size: 40px;
   --page-container--width: 100%;
@@ -2149,7 +2149,7 @@ body {
   --section--padding-left-right: 5%;
   --button--round-corners: 50px;
   --button--background-color: #fff0;
-  --button--button-color-second: #7468fc;
+  --button--button-color-second: #B8860B;
   --button--font-size: 14px;
   --section--padding-top-bottom: 120px;
   --page-margin--margin-60px: 60px;
@@ -2163,12 +2163,12 @@ body {
   --page-margin--margin-50px: 50px;
   --page-margin--margin-200px: 200px;
   --page-margin--margin-15px: 15px;
-  --color--neon-green: #1dd35a;
+  --color--neon-green: #D4AF37;
   --page-margin--margin-10px: 10px;
   --page-margin--margin-70px: 70px;
   --page-margin--margin-90px: 90px;
   --page-margin--margin-100px: 100px;
-  --button--button-color: #110fdf;
+  --button--button-color: #D4AF37;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -2509,7 +2509,7 @@ blockquote {
   color: #040126;
   text-align: center;
   letter-spacing: -.03rem;
-  background-color: #9adbff;
+  background-color: #D4AF37;
   padding: .85rem 1.4rem;
   font-weight: 500;
   text-decoration: none;
@@ -2531,7 +2531,7 @@ blockquote {
 }
 
 .button.first:hover {
-  background-image: linear-gradient(20deg, #7468fc, var(--color--blue));
+  background-image: linear-gradient(20deg, #B8860B, var(--color--blue));
   box-shadow: inset 0 0 #040126;
 }
 
@@ -4780,7 +4780,7 @@ blockquote {
 }
 
 .work-process-card.fourth-card {
-  background-color: #110fdf4d;
+  background-color: #D4AF374d;
   position: relative;
   top: 0;
 }
@@ -5995,7 +5995,7 @@ blockquote {
     --color--second-color: black;
     --font-family--primary-font: Geist, sans-serif;
     --color--first-color: white;
-    --color--blue: #110fdf;
+    --color--blue: #D4AF37;
     --backdrop-filter--blur-color: #ffffff0d;
     --backdrop-filter--backdrop-size: 40px;
     --page-container--width: 100%;
@@ -6003,7 +6003,7 @@ blockquote {
     --section--padding-left-right: 5%;
     --button--round-corners: 50px;
     --button--background-color: #fff0;
-    --button--button-color-second: #7468fc;
+    --button--button-color-second: #B8860B;
     --button--font-size: 14px;
     --section--padding-top-bottom: 80px;
     --page-margin--margin-60px: 60px;
@@ -6017,12 +6017,12 @@ blockquote {
     --page-margin--margin-50px: 50px;
     --page-margin--margin-200px: 150px;
     --page-margin--margin-15px: 15px;
-    --color--neon-green: #1dd35a;
+    --color--neon-green: #D4AF37;
     --page-margin--margin-10px: 10px;
     --page-margin--margin-70px: 70px;
     --page-margin--margin-90px: 90px;
     --page-margin--margin-100px: 100px;
-    --button--button-color: #110fdf;
+    --button--button-color: #D4AF37;
   }
 
   .line-midddle {
@@ -6657,7 +6657,7 @@ blockquote {
     --color--second-color: black;
     --font-family--primary-font: Geist, sans-serif;
     --color--first-color: white;
-    --color--blue: #110fdf;
+    --color--blue: #D4AF37;
     --backdrop-filter--blur-color: #ffffff0d;
     --backdrop-filter--backdrop-size: 40px;
     --page-container--width: 100%;
@@ -6665,7 +6665,7 @@ blockquote {
     --section--padding-left-right: 5%;
     --button--round-corners: 50px;
     --button--background-color: #fff0;
-    --button--button-color-second: #7468fc;
+    --button--button-color-second: #B8860B;
     --button--font-size: 14px;
     --section--padding-top-bottom: 60px;
     --page-margin--margin-60px: 60px;
@@ -6679,12 +6679,12 @@ blockquote {
     --page-margin--margin-50px: 50px;
     --page-margin--margin-200px: 100px;
     --page-margin--margin-15px: 15px;
-    --color--neon-green: #1dd35a;
+    --color--neon-green: #D4AF37;
     --page-margin--margin-10px: 10px;
     --page-margin--margin-70px: 70px;
     --page-margin--margin-90px: 90px;
     --page-margin--margin-100px: 100px;
-    --button--button-color: #110fdf;
+    --button--button-color: #D4AF37;
   }
 
   .navbar-menu {
@@ -7057,7 +7057,7 @@ blockquote {
     --color--second-color: black;
     --font-family--primary-font: Geist, sans-serif;
     --color--first-color: white;
-    --color--blue: #110fdf;
+    --color--blue: #D4AF37;
     --backdrop-filter--blur-color: #ffffff0d;
     --backdrop-filter--backdrop-size: 40px;
     --page-container--width: 100%;
@@ -7065,7 +7065,7 @@ blockquote {
     --section--padding-left-right: 5%;
     --button--round-corners: 50px;
     --button--background-color: #fff0;
-    --button--button-color-second: #7468fc;
+    --button--button-color-second: #B8860B;
     --button--font-size: 14px;
     --section--padding-top-bottom: 60px;
     --page-margin--margin-60px: 60px;
@@ -7079,12 +7079,12 @@ blockquote {
     --page-margin--margin-50px: 50px;
     --page-margin--margin-200px: 100px;
     --page-margin--margin-15px: 15px;
-    --color--neon-green: #1dd35a;
+    --color--neon-green: #D4AF37;
     --page-margin--margin-10px: 10px;
     --page-margin--margin-70px: 70px;
     --page-margin--margin-90px: 90px;
     --page-margin--margin-100px: 100px;
-    --button--button-color: #110fdf;
+    --button--button-color: #D4AF37;
   }
 
   .navbar-component {
@@ -7199,7 +7199,7 @@ blockquote {
     --color--second-color: black;
     --font-family--primary-font: Geist, sans-serif;
     --color--first-color: white;
-    --color--blue: #110fdf;
+    --color--blue: #D4AF37;
     --backdrop-filter--blur-color: #ffffff0d;
     --backdrop-filter--backdrop-size: 40px;
     --page-container--width: 100%;
@@ -7207,7 +7207,7 @@ blockquote {
     --section--padding-left-right: 5%;
     --button--round-corners: 50px;
     --button--background-color: #fff0;
-    --button--button-color-second: #7468fc;
+    --button--button-color-second: #B8860B;
     --button--font-size: 14px;
     --section--padding-top-bottom: 60px;
     --page-margin--margin-60px: 60px;
@@ -7221,12 +7221,12 @@ blockquote {
     --page-margin--margin-50px: 50px;
     --page-margin--margin-200px: 100px;
     --page-margin--margin-15px: 15px;
-    --color--neon-green: #1dd35a;
+    --color--neon-green: #D4AF37;
     --page-margin--margin-10px: 10px;
     --page-margin--margin-70px: 70px;
     --page-margin--margin-90px: 90px;
     --page-margin--margin-100px: 100px;
-    --button--button-color: #110fdf;
+    --button--button-color: #D4AF37;
   }
 
   .margin-150._100 {
