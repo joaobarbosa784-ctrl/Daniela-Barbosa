@@ -1,0 +1,79 @@
+/* ========================================
+   Gold-on-Charcoal Theme Override
+   Replaces purple/blue gradients with gold/charcoal
+   ======================================== */
+
+/* --- CSS Variable Overrides (gold + charcoal) --- */
+:root,
+body {
+  --color--blue: #ffcc00;
+  --button--button-color-second: #1a1a1a;
+  --button--button-color: #ffcc00;
+}
+
+/* --- Body fallback background --- */
+body {
+  background-color: #0d0d0d;
+}
+
+/* --- Base button: gold bg, dark text --- */
+.button {
+  color: #0d0d0d;
+  background-color: #ffcc00;
+}
+
+/* --- Primary gradient button: gold -> charcoal --- */
+.button.first {
+  box-shadow: 0 7px 80px -12px var(--color--blue), inset 0 0 0 0 #0d0d0d;
+}
+
+.button.first:hover {
+  background-image: linear-gradient(20deg, #1a1a1a, var(--color--blue));
+  box-shadow: inset 0 0 #0d0d0d;
+}
+
+/* --- Button-with-animation text --- */
+.button-with-animation {
+  color: #0d0d0d;
+}
+
+/* --- Navbar dropdown: dark charcoal --- */
+.navbar-drodpdown-list.auto {
+  background-color: #0d0d0de6;
+}
+
+/* --- Work process card: gold tint --- */
+.work-process-card.fourth-card {
+  background-color: #ffcc004d;
+}
+
+/* --- Hide old blue lighting image --- */
+.lighting {
+  display: none !important;
+}
+
+/* --- Gold parallax background --- */
+.gold-parallax-bg {
+  position: fixed;
+  inset: -500px;
+  z-index: 18;
+  pointer-events: none;
+  background-color: #0d0d0d;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 30% 15%, rgba(255, 204, 0, 0.20) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 50% at 75% 55%, rgba(255, 170, 0, 0.14) 0%, transparent 45%),
+    radial-gradient(ellipse 90% 70% at 50% 100%, rgba(255, 204, 0, 0.10) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 85% 25%, rgba(255, 204, 0, 0.07) 0%, transparent 40%);
+  will-change: transform;
+}
+
+/* --- Film grain overlay --- */
+.gold-parallax-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.12;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
